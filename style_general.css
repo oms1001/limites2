@@ -1,7 +1,4 @@
 .body {
-  background-color: teal;
-  display: grid;
-  grid-template-rows: 100%;
   height: 100%;
 }
 
