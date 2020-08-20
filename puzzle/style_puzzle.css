@@ -1,0 +1,29 @@
+.body {
+  background-color: teal;
+  display: grid;
+  grid-template-rows: 100%;
+  height: 100%;
+}
+
+#target {
+  grid-row: 1;
+  height: 100%;
+}
+
+.aparecer {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 100;
+  }
+  100% {
+    opacity: 0;
+  }
+}
