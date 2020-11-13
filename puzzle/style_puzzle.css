@@ -4,10 +4,56 @@
   grid-template-rows: 100%;
   height: 100%;
 }
-p {
-  font-family: monospace;
-  font-size: 2em;
+.text-content{
+  padding-top: 2%;
+  padding-left: 30%;
+  padding-right: 10%;
+  text-align: justify;
+  text-justify: inter-word;
+  position: absolute;
+  line-height: 1.6;
 }
+
+.menu{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  text-align: right;
+}
+
+.menu li{
+  display: inline;
+  padding: 0.5%;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+.menu a:hover{
+  color: rgb(255, 230, 0);
+}
+
+
+h1 {
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1,3em;
+  background-color: rgba(0,0,0,0.95);
+}
+
+p{
+  color:white;
+  font-size: 1.1em;
+  font-family: 'Lato', sans-serif;
+  background-color: rgba(0,0,0,0.95);
+}
+
+img{
+  size: 100%;
+  width: 100%;
+  padding-top: 3%;
+}
+
 #target {
   grid-row: 1;
   height: 100%;
