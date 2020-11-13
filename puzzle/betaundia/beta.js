@@ -3,7 +3,8 @@ function preload(){
 }
 
 function setup(){
-  let cnv = createCanvas(displayWidth/1.5, displayHeight/1.5);
+  let cnv = createCanvas(600, 600);
+  cnv.parent('sketch-holder');
   cnv.mouseClicked(togglePlay);
   fft = new p5.FFT();
   sound.amp(1);
