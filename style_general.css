@@ -1,6 +1,9 @@
 body {
   height: 100%;
-  background-color: black;
+}
+
+footer {
+  font-size: 0.5em;
 }
 
 #target {
