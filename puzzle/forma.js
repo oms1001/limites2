@@ -18,7 +18,7 @@ function setup() {
 function draw() {
  
   background(0,0,0)
-  fill(255, 230, 0);
+  fill(2, 8, 96);
   beginShape();
   vertex(0, displayHeight/2);
   vertex(500, displayHeight/4);

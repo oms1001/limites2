@@ -37,16 +37,18 @@
   display: none
 }
 #menu>ul>li>ul>li {
-  position: relative
+  position: relative;
+  margin-top: 5px;
 }
+
 #menu>ul>li>ul>li>a {
-  background: rgba(246, 246, 246, 0.972);
+  background: rgba(255, 255, 255, 0.835);
   color: black;
 }
 
 #menu>ul>li>ul>li>a:hover {
-  background:black;
-  color: rgb(255, 230, 0);
+  background:rgba(2,8,96);
+  color: rgb(0, 198, 90);
 }
 #menu>ul>li>ul>li>ul {
   position: absolute;
@@ -55,7 +57,7 @@
   display: none
 }
 #menu>ul>li>ul>li>ul a {
-  background: #ff0
+  background: rgb(0, 198, 90)
 }
 #menu ul {
   list-style: none;
@@ -77,7 +79,7 @@
 }
 
 #menu a:hover{
-  color: rgb(255, 230, 0);
+  color: rgb(0, 198, 90);
 }
 
 
@@ -86,6 +88,27 @@ h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 1,3em;
   background-color: rgba(0,0,0,0.95);
+}
+
+h2 {
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  background-color: rgba(0,0,0,0.95);
+}
+ul li {
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(0,0,0,0.95);
+}
+
+a{
+  color: rgb(2, 8,96);
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(26, 153, 153);
 }
 
 p{
