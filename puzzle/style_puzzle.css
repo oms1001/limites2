@@ -16,6 +16,16 @@
   text-justify: inter-word;
   position: absolute;
   line-height: 1.6;
+  }
+
+.text-content p{
+  padding: 1%;
+  background-color: rgba(0, 0, 0, 0.712);
+}
+.text-content a{
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
 }
 
 #menu {
@@ -42,12 +52,12 @@
 }
 
 #menu>ul>li>ul>li>a {
-  background: rgba(255, 255, 255, 0.835);
+  background: rgb(255, 255, 255);
   color: black;
 }
 
 #menu>ul>li>ul>li>a:hover {
-  background:rgba(2,8,96);
+  background:rgb(4, 15, 172);
   color: rgb(0, 198, 90);
 }
 #menu>ul>li>ul>li>ul {
@@ -87,7 +97,7 @@ h1 {
   color:white;
   font-family: 'Roboto', sans-serif;
   font-size: 1,3em;
-  background-color: rgba(0,0,0,0.95);
+  
 }
 
 h2 {
@@ -103,7 +113,7 @@ ul li {
 }
 
 a{
-  color: rgb(2, 8,96);
+  color: rgb(4, 15, 172);
   text-decoration: none;
 }
 
