@@ -145,6 +145,11 @@ img{
   left: 25px;
 }
 
+
+audio{
+  width: 100%;
+}
+
 @keyframes aparecer {
   0% {
     opacity: 0;
@@ -155,4 +160,27 @@ img{
   100% {
     opacity: 0;
   }
+}
+
+@media only screen and (max-width: 600px) {
+  .text-content{
+    padding-top: 4%;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: justify;
+    text-justify: inter-word;
+    position: absolute;
+    line-height: 1.6;
+    }
+  
+  .text-content p{
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.712);
+  }
+  .text-content a{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+  }
+  
 }
